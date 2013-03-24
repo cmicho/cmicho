@@ -393,18 +393,18 @@ input, button, select {
 /* 10==print */
 /* ----------------------------- */
 
-/* quick print reset */
+/* quick print reset
 @media print {
     p, blockquote {orphans: 2; widows: 2;}
     blockquote, ul, ol {page-break-inside: avoid;}
     h1, h2, h3, caption { page-break-after: avoid;}
 }
-
+ */
 /* ----------------------------- */
 /* 11==mobile */
 /* ----------------------------- */
 
-/* quick tablet reset */
+/* quick tablet reset 
 @media (max-width: 768px) {
     .tablet-hidden {display: none}
     [class*="mw"], [class*="w9"], [class*="w8"],
@@ -412,8 +412,9 @@ input, button, select {
         width: auto;
     }
 }
+*/
 
-/* quick smartphone reset */
+/* quick smartphone reset 
 @media (max-width: 640px) {
     .phone-hidden {display: none}
     .mod, .col, label, fieldset {
@@ -428,11 +429,13 @@ input, button, select {
     }
     .row {width: 100% !important}
 }
+*/
 
-/* corrects retina iOS orientation zoom */
+/* corrects retina iOS orientation zoom 
 @media (max-device-width:768px) and (orientation:landscape) and (-webkit-min-device-pixel-ratio:2) {
     html {-webkit-text-size-adjust:66%}
 }
+*/
 
 /* ----------------------------- */
 /* 12==Fin du KNACSS */
