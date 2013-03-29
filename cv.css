@@ -94,6 +94,7 @@ textarea, table, td, th, code, pre, samp, div, p {
     -o-hyphens: auto;
     hyphens: auto;
 }
+
 code, pre, samp {
     white-space: pre-wrap;
 }

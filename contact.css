@@ -110,6 +110,7 @@ body {
 	background-repeat: no-repeat;
 	background-attachment:scroll;
 	background-position:top;
+	background-size:contain;
 }
 
 /* ----------------------------- */
