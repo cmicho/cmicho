@@ -110,6 +110,7 @@ body {
 	background-repeat: no-repeat;
 	background-attachment:scroll;
 	background-position:top;
+	background-size:contain;
 }
 
 /* ----------------------------- */
@@ -431,11 +432,11 @@ input, button, select {
 }
 */
 
-/* corrects retina iOS orientation zoom 
+/* corrects retina iOS orientation zoom */
 @media (max-device-width:768px) and (orientation:landscape) and (-webkit-min-device-pixel-ratio:2) {
     html {-webkit-text-size-adjust:66%}
 }
-*/
+
 
 /* ----------------------------- */
 /* 12==Fin du KNACSS */
